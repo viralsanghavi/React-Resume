@@ -12,7 +12,7 @@ const App = () => {
       <div className="icons">
 
         <ul>
-          <a href="https://www.youtube.com/channel/UCwDxrXhDmDHehSDbo76RWCg" rel="noopener noreferrer" target="_blank"><li className="twitter"><FaLinkedinIn />
+          <a href="https://www.linkedin.com/in/viral-sanghavi-b82033130" rel="noopener noreferrer" target="_blank"><li className="twitter"><FaLinkedinIn />
           </li></a>
         </ul>
       </div>

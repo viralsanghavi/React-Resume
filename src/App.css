@@ -1,4 +1,4 @@
-/* https://newtodesing.com/ 
+/* https://newtodesing.com/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -400,7 +400,7 @@ li .description {
 
 .icons {
   top: 50%;
-  left: 0;
+  right: 0;
   transform: translateY(-50%);
   position: fixed;
   z-index: 100;
