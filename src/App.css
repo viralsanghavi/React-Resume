@@ -379,7 +379,7 @@ li .description {
     text-align: left;
   }
   .card h2 {
-    font-size: 70px;
+    font-size: 40px;
   }
   .card, .sections {
     width: 100%;
@@ -470,3 +470,14 @@ li .description {
 }
 
 /* End of all :P*/
+
+
+.detail{
+  font-style: 10px !important;
+}
+
+.ow {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}

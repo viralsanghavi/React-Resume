@@ -2,12 +2,12 @@ import React from 'react'
 
 const ListItem = ({ exp, loc, date }) => (
     <li>
-        <p class="line">{exp}</p>
-        <span class="point"></span>
-        <p class="description">
+        <p className="line">{exp}</p>
+        <span className="point"></span>
+        <p className="description">
             {loc}
         </p>
-        <span class="date">{date}</span>
+        <span className="date">{date}</span>
     </li>
 )
 
