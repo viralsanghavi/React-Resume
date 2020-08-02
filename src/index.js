@@ -3,9 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Github } from './Components/Github';
 
 ReactDOM.render(
-  <App />
+  <BrowserRouter>
+    <Switch>
+      <Route exact path="/">
+        <App />
+      </Route>
+      <Route exact path="/projects">
+        <Github />
+      </Route>
+    </Switch>
+  </BrowserRouter>
   , document.getElementById('root')
 );
 

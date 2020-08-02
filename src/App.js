@@ -3,16 +3,20 @@ import ListItem from './Components/listitem'
 import Card from './Components/Card'
 import SkillSet from './Components/skillset'
 import { FaLinkedinIn } from 'react-icons/fa'
-import Detail from './Components/modal'
 import { Button } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import { Link } from 'react-router-dom'
 
 const App = () => {
 
   return (
     <div>
-
+      <nav className="navbar float-right">
+        <Link to="/projects">
+          <Button color="primary" outline right className="navbar__GoTo">Projects</Button>
+        </Link>
+      </nav>
       {/* Side Icons */}
       <div className="icons">
         <ul>
@@ -39,6 +43,10 @@ const App = () => {
           <SkillSet exp="+ 1 years" skill="Design Integration" language="JS Frameworks and libraries like React. Flask framework" />
           <SkillSet exp="+ 0 years" skill="Linux" language="Scripting, Automation" />
 
+          {/* TODO: */}
+
+
+
 
         </div>
         <div className="sections">
@@ -51,10 +59,10 @@ const App = () => {
 
 
       <div className="container cards">
-        <Card exp="7" superscript=" +"  classn="projects" skillTitle="Projects" descrip="Adapting and creating solutions for customer's needs" />
+        <Card exp="7" superscript=" +" classn="projects" skillTitle="Projects" descrip="Adapting and creating solutions for customer's needs" />
         <Card exp="50" superscript=" %" skillTitle="Web" descrip="Applications development integrating third-party services, MySQL,Neo4j Database, and api(s)." />
         <Card exp="30" superscript=" %" skillTitle="Technical Solutions" descrip="Such as web dev, API usage and integration." />
-        <Card exp="20" superscript=" %"  skillTitle="Leading" descrip="Projects and ensure the quality of delivery, with knowledge sharing with team." />
+        <Card exp="20" superscript=" %" skillTitle="Leading" descrip="Projects and ensure the quality of delivery, with knowledge sharing with team." />
       </div>
 
 

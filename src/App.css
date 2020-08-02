@@ -5,10 +5,90 @@
 
 /*Load google font*/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 /* Reset Styles */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,36 +99,52 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 a {
   text-decoration: none;
   text-transform: none;
-  color: #4A90E2;
+  color: #4a90e2;
 }
 
 body {
   line-height: 1;
-  font-family: lato, ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font-family: lato, ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 19px;
-  background-color: #FEFEFE;
-  color: #04143A;
+  background-color: #fefefe;
+  color: #04143a;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -67,7 +163,8 @@ strong {
   font-weight: 600;
 }
 
-div, footer {
+div,
+footer {
   box-sizing: border-box;
 }
 
@@ -94,8 +191,8 @@ h1.name {
 
 .job-title {
   vertical-align: top;
-  background-color: #D9E7F8;
-  color: #4A90E2;
+  background-color: #d9e7f8;
+  color: #4a90e2;
   font-weight: 600;
   margin-top: 5px;
   margin-left: 20px;
@@ -108,7 +205,7 @@ h1.name {
   display: block;
   font-size: 24px;
   font-weight: 300;
-  color: #81899C;
+  color: #81899c;
   margin-top: 10px;
 }
 
@@ -140,14 +237,15 @@ h1.name {
   margin: 30px 0;
 }
 
-.list-card .exp, .list-card div {
+.list-card .exp,
+.list-card div {
   display: inline-block;
   vertical-align: top;
 }
 
 .list-card .exp {
   margin-right: 15px;
-  color: #4A90E2;
+  color: #4a90e2;
   font-weight: 600;
   width: 100px;
 }
@@ -159,14 +257,14 @@ h1.name {
 .list-card h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #5B6A9A;
+  color: #5b6a9a;
   line-height: 26px;
   margin-bottom: 8px;
 }
 
 .list-card div span {
   font-size: 16px;
-  color: #81899C;
+  color: #81899c;
   line-height: 22px;
 }
 
@@ -183,16 +281,17 @@ h1.name {
 .card {
   width: 47.9%;
   height: 200px;
-  background-color: #EEF0F7;
+  background-color: #eef0f7;
   display: inline-block;
   margin: 7px 5px;
   vertical-align: top;
   border-radius: 10px;
   text-align: center;
-  padding-top: 50px
+  padding-top: 50px;
 }
 
-.card-active, .card:hover {
+.card-active,
+.card:hover {
   transform: scale(1.02);
   transition: 0.5s;
   background-color: #fff;
@@ -208,7 +307,7 @@ h1.name {
 .skill-level span {
   font-size: 35px;
   font-weight: 300;
-  color: #5B6A9A;
+  color: #5b6a9a;
   vertical-align: top;
 }
 
@@ -217,7 +316,7 @@ h1.name {
   font-weight: 300;
   display: inline-block;
   vertical-align: top;
-  color: #5B6A9A;
+  color: #5b6a9a;
   letter-spacing: -5px;
 }
 
@@ -233,12 +332,12 @@ h1.name {
 .skill-meta h3 {
   font-size: 20px;
   font-weight: 800;
-  color: #5B6A9A;
+  color: #5b6a9a;
   margin-bottom: 5px;
 }
 
 .skill-meta span {
-  color: #81899C;
+  color: #81899c;
   line-height: 20px;
   font-size: 16px;
 }
@@ -252,10 +351,11 @@ ol {
   display: block;
   margin: 100px 0;
   height: 2px;
-  background: #EEF0F7;
+  background: #eef0f7;
 }
 
-ol::before, ol::after {
+ol::before,
+ol::after {
   content: "";
   position: absolute;
   top: -10px;
@@ -263,7 +363,7 @@ ol::before, ol::after {
   width: 0;
   height: 0;
   border-radius: 10px;
-  border: 0px solid #31708F;
+  border: 0px solid #31708f;
 }
 
 ol::before {
@@ -274,7 +374,7 @@ ol::after {
   right: -10px;
   border: 0px solid transparent;
   border-right: 0;
-  border-left: 20px solid #31708F;
+  border-left: 20px solid #31708f;
   border-radius: 3px;
 }
 
@@ -294,7 +394,7 @@ li .line {
   left: 1%;
   font-size: 20px;
   font-weight: 600;
-  color: #04143A;
+  color: #04143a;
 }
 
 li .point {
@@ -306,7 +406,7 @@ li .point {
   height: 8px;
   border: 4px solid #fff;
   border-radius: 10px;
-  background: #4A90E2;
+  background: #4a90e2;
   position: absolute;
 }
 
@@ -321,11 +421,11 @@ li .description {
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
-  color: #5B6A9A;
+  color: #5b6a9a;
 }
 
 .description::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -338,14 +438,14 @@ li .description {
 
 .timeline .date {
   font-size: 14px;
-  color: #81899C;
+  color: #81899c;
   font-weight: 300;
 }
 
 /* ---- Hover effects ---- */
 
 li:hover {
-  color: #48A4D2;
+  color: #48a4d2;
 }
 
 li .description {
@@ -356,7 +456,7 @@ li .description {
 
 /* Media queries*/
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
   .container {
     padding: 15px;
     margin: 0px auto;
@@ -366,7 +466,7 @@ li .description {
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     padding: 15px;
     margin: 0px auto;
@@ -381,7 +481,8 @@ li .description {
   .card h2 {
     font-size: 40px;
   }
-  .card, .sections {
+  .card,
+  .sections {
     width: 100%;
     height: auto;
     margin: 10px 0;
@@ -396,7 +497,6 @@ li .description {
     height: 150px;
   }
 }
-
 
 .icons {
   top: 50%;
@@ -421,11 +521,9 @@ li .description {
   color: #fff;
 }
 
-
 .twitter:hover {
   background: #55acee;
 }
-
 
 .icons ul li:hover {
   padding-left: 30px;
@@ -433,13 +531,12 @@ li .description {
   transition: ease-in-out 0.8s;
 }
 
-
-
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   h1.name {
     font-size: 40px;
   }
-  .card, .sections {
+  .card,
+  .sections {
     width: 100%;
     height: auto;
     margin: 10px 0;
@@ -453,7 +550,7 @@ li .description {
     font-size: 15px;
     top: -40px;
     right: 20px;
-    padding: 10px
+    padding: 10px;
   }
   .lead {
     margin-top: 15px;
@@ -471,8 +568,7 @@ li .description {
 
 /* End of all :P*/
 
-
-.detail{
+.detail {
   font-style: 10px !important;
 }
 
@@ -480,4 +576,41 @@ li .description {
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
+}
+
+.github__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+.github__card {
+  height: inherit;
+  margin: 10px;
+  padding: 20px;
+  width: 30%;
+}
+.github {
+  display: flex;
+  flex-direction: column;
+}
+.github__card > img {
+  object-fit: contain;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .github__card {
+    width: 100%;
+  }
+}
+
+.github__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.github__nav > a > img {
+  object-fit: contain;
+  height: 45px;
 }
