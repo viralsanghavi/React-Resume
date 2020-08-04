@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Detail from './modal'
-import { Button } from 'reactstrap'
 
 const Card = ({ superscript, exp, skillTitle, descrip, classn }) => {
 

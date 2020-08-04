@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 export const Github = () => {
     const [project, setProject] = useState([])
-    const [loaded, isLoaded] = useState(false)
     const [avatar, setAvatar] = useState('')
     useEffect(() => {
         fetch("https://api.github.com/users/viralsanghavi/repos")

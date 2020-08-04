@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ListItem from './Components/listitem'
 import Card from './Components/Card'
 import SkillSet from './Components/skillset'
@@ -7,11 +7,19 @@ import { Button } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import { Link } from 'react-router-dom'
+// import { useStateValue } from './StateProvider'
 
 const App = () => {
-
+  // const [theme, setTheme] = useState('light')
+  // const [{ color }] = useStateValue()
+  // console.log(color)
   return (
-    <div>
+    <div
+    //  style={{
+    //   color:color.dark.color,
+    //   background: color.dark.backgroundColor
+    // }}
+    >
       <nav className="navbar float-right">
         <Link to="/projects">
           <Button color="primary" outline right className="navbar__GoTo">Projects</Button>

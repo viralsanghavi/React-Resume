@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Modal,
   ModalBody,
   ModalHeader,
   ListGroup,
-  ListGroupItem,
   UncontrolledCollapse,
-  Badge,
   Card,
 } from "reactstrap";
 import ModalData from "./modalData";
