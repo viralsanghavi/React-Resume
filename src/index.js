@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Github } from './Components/Github';
+import ProjectDetail from './ProjectDetail';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -15,6 +16,10 @@ ReactDOM.render(
       <Route exact path="/projects">
         <Github />
       </Route>
+      <Route exact path="/projects/:projectName">
+        <ProjectDetail />
+      </Route>
+
     </Switch>
   </BrowserRouter>
   , document.getElementById('root')
